@@ -20,5 +20,7 @@
 * use git checkout commant to switch between branches.
 * use <code> git diff Your_destinagtion_branch_name </code> to see the difference between of both branch
 * use <code> git merge Your_destination_branch_name</code> to merge into files and changes in the destination branch in this case master branch. (this is not common practic method use pull request method)
-* 
+* Use <code> git branch -d Your_unused_banch </code> to delete already merged branch.
+* Use reset to undo commits, <code> git reset </code> or <code> git reset HEAD~1 </code> for reset second last commit, use <code> git log </code> for list of all commits with unique hass and use these hass to reset commit till that commit <code> git reset Your_unique_hass </code>.
+* Reset commit alone with file changes use command <code> git reset --hard Your_unique_hass </code>.
 
