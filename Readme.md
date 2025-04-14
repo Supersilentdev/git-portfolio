@@ -9,5 +9,7 @@ Use "ls -la" to check for all file inside the repo including .git folder which i
 Edit Readme file and save changes.
 check git repo for any changes with "git status" command.  
 Now creat new index.html file locally and run "git status" and check for Untracked files that are not part of git.
-To add all Untracked files to git use command "git add ." or "git add index.html" for just single file.
+To add all Untracked and modified files to git use command "git add ." or "git add index.html" for just single file.
+Save you commit to git locally used " git commit -m "Added index.html" -m "added index fime and made changes to redme file" " where first -m is mandatory comment and second -m is optional.
+ 
 
