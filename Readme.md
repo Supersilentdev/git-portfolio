@@ -17,5 +17,8 @@
 * create new branch in the repo "git checkout -b Your_new_branch_name"
 * Switch between branches with <code> git checkout Your_branch_name </code> use branch inistials with tab to suggition.
 * make changes to readme and push it to newly created branch.
+* use git checkout commant to switch between branches.
+* use <code> git diff Your_destinagtion_branch_name </code> to see the difference between of both branch
+* use <code> git merge Your_destination_branch_name</code> to merge into files and changes in the destination branch in this case master branch. (this is not common practic method use pull request method)
 * 
 
