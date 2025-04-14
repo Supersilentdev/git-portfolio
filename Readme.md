@@ -14,5 +14,7 @@
 * To set remote upstrime as default use command "git commit -u origin master" and use "git push" from next time.
 * change git repo in terminal "git origin set-url origin your_repo_url"
 * check for repo branches "git branch"
+* create new branch in the repo "git checkout -b Your_new_branch_name"
+* Switch between branches with <code> git checkout Your_branch_name </code> use branch inistials with tab to suggition.
 * 
 
